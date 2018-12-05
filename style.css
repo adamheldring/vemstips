@@ -1,0 +1,58 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background: #0faa0f;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+}
+.main-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.inner-container {
+  text-align: center;
+  color: #FFF;
+}
+
+#week {
+  font-size: 100px;
+}
+#whosTurn {
+  font-size: 300px;
+  margin: 10px 0;
+}
+#daysUntilSaturday {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 1000px) {
+  #week {
+    font-size: 60px;
+  }
+  #whosTurn {
+    font-size: 185px;
+  }
+  #daysUntilSaturday {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #week {
+    font-size: 35px;
+  }
+  #whosTurn {
+    font-size: 95px;
+  }
+  #daysUntilSaturday {
+    font-size: 25px;
+  }
+}
