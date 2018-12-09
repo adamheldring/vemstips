@@ -1,4 +1,4 @@
-// SPELARNA 
+// SPELARNA
 const players = ["ÅKE", "ADAM", "TOBBE"]
 
 // Gets week number from getWeekNumber.js
@@ -37,7 +37,7 @@ weekDisplay.innerHTML = "VECKA " + weekObj.week
 whosTurnDisplay.innerHTML = thisWeeksPlayer
 
 // Checks if it's Saturday and if not how many days left, if saturday bg-color red
-const daysLeft = Number.parseInt(6 - today.getUTCDay())
+const daysLeft = Number.parseInt(6 - today.getDay())
 if (daysLeft === 0) {
   daysUntilSaturday.innerHTML = "DET ÄR LÖRDAG!"
   body.style.backgroundColor = "#ed4b4b"

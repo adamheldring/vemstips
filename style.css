@@ -34,6 +34,9 @@ h1 {
 }
 
 @media screen and (max-width: 1000px) {
+  .main-container {
+    margin-top: 50px;
+  }
   #week {
     font-size: 60px;
   }
@@ -46,6 +49,9 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+  .main-container {
+    margin-top: 50px;
+  }
   #week {
     font-size: 35px;
   }
