@@ -7,7 +7,7 @@ const today = new Date();
 
 // Starts Counter at midnight to Sunday day one of week one,
 // 6 days before first tips (Åke's turn)
-const startDate = new Date("October 28, 2018 00:00:01");
+const startDate = new Date("October 14, 2018 00:00:01");
 
 // Gets HTML elements
 const body = document.getElementById("body");
@@ -17,7 +17,7 @@ const daysUntilSaturday = document.getElementById("daysUntilSaturday");
 
 // Takes in number of ms between today and the first day of week one and
 // returns the number of passed complete weeks
-const weekCounter = msDiff => {
+const weekCounter = (msDiff) => {
   const secondCount = msDiff / 1000;
   const dayCount = Math.floor(secondCount / 60 / 60 / 24);
   const weekCount = Math.floor(dayCount / 7);
