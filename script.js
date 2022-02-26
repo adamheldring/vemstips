@@ -7,7 +7,7 @@ const today = new Date();
 
 // Starts Counter at midnight to Sunday day one of week one,
 // 6 days before first tips (Åke's turn)
-const startDate = new Date("October 21, 2018 00:00:01");
+const startDate = new Date("October 14, 2018 00:00:01");
 
 // Gets HTML elements
 const body = document.getElementById("body");
